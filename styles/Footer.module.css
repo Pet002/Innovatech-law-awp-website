@@ -1,0 +1,24 @@
+.Footertab{
+    width: 100%;
+    background-color: #3972DA;
+}
+.text{
+    color: #fff;
+}
+
+.footLink{
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration: none;
+}
+.footLink:hover{
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.linkActive{
+    color : #fff;
+}
+
+.rightCopy{
+    padding-bottom: 20px;
+    color: #fff;
+}

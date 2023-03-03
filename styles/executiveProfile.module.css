@@ -1,0 +1,49 @@
+.main {
+    
+    padding: 4rem 0;
+}
+.banner{
+    width: 100%;
+    background-image: linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.7)
+      ),
+    url('../assets/profiles/lawer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 340px;
+}
+
+.banner h1{
+  font-weight: 900;
+}
+
+.oddContent{
+  background-color: #E8E8E8;
+}
+
+.imagesLawers{
+  border-radius: 5%;
+}
+
+@media only screen and (max-width : 767px) {
+  .flexRps{
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+  .oddContent:not(:last-child){ 
+    border-bottom: solid 1px;
+    border-color: #3972DA;
+  }
+  .oddContent{
+    background-color: white;
+  }
+}
