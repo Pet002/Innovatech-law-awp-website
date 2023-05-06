@@ -218,7 +218,9 @@ export default function ExcutiveProfile() {
                 <br />
                 - Pitching and Negotiation มหาวิทยาลัยธรรมศาสตร์
                 <br />
-                - International Trade Law -Digital Economics
+                - International Trade Law 
+                <br />
+                -Digital Economics
               </p>
             </div>
 
