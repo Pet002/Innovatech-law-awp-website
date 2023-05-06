@@ -212,7 +212,7 @@ export default function ExcutiveProfile() {
                 - ใบอนุญาตทนายความและหลักสูตรวิชาว่าความ
                 ของสานักฝึกอบรมวิชาว่าความ ปี พ.ศ 2565
                 <br />
-                - Startup Pitch Championships ผลิตแอพพลิเคชั่น "LAWMATE" ในงาน
+                - Startup Pitch Championships ผลิตแอพพลิเคชั่น &ldquo;LAWMATE&ldquo; ในงาน
                 Techsauce Global Summit 2019 เข้ารอบ 1 ใน 30 ทีม จาก 15
                 ประเทศทั่วโลก 
                 <br />
