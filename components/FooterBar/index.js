@@ -67,7 +67,7 @@ const FooterBar = () => {
                 <div className="row">
                     <div className={`${"col-md-12 text-center"} ${styles.rightCopy}`}>
                         <p>
-                        © 2022  All Rights Reserved
+                        © {new Date().getFullYear()}  All Rights Reserved
                         </p>
                     </div>
                 </div>
