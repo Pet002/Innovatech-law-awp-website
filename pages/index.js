@@ -114,7 +114,7 @@ export default function Home() {
           <div className='row'>
             <div className='col-md-4 my-4'>
               <Image src={script} alt="script" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}> บริการจดทะเบียนธุรกิจทุกประเภท </h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}> บริการจดทะเบียนธุรกิจทุกประเภท <br/> <br /></h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={VAT} alt="VAT" width={150} height={100} />
@@ -126,7 +126,7 @@ export default function Home() {
             </div>
           </div>
           <div className='row'>
-            <div className='col-md-12my-4'>
+            <div className='col-md-12 my-4'>
               <Image src={Hummer} alt="Hummer" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>บริการดำเนินคดีทางศาล</h5>
             </div>
