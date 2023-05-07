@@ -52,7 +52,7 @@ export default function Home() {
                 Base on start-up type
               </h5>
               <p>
-                เพราะเราเริ่มต้นจากการเป็นสตาร์ทอัพ <br />เหมือนคุณทำให้เราเข้าใจคุณมากกว่าใคร
+                เพราะเราเริ่มต้นจากการเป็นสตาร์ทอัพ <br />เหมือนคุณทำให้เราเข้าใจคุณมากกว่าใคร {process.env.NODE_ENV}
               </p>
             </div>
             <div className='col-md-4 my-3'>
