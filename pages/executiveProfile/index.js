@@ -10,9 +10,11 @@ import Lawer4 from "../../assets/profiles/Chanatip-Wu2.png";
 
 import Khunwarin1 from "../../assets/profiles/Khunwarin.jpg"
 import Khunwarin2 from "../../assets/profiles/Khunwarin2.jpg"
+import { useLanguage } from "../../contexts/language/languageContext";
 
 
 export default function ExcutiveProfile() {
+  const { language } = useLanguage();
   return (
     <main>
       <Meta pageTitle="Excutive Profile" />
@@ -21,7 +23,7 @@ export default function ExcutiveProfile() {
         <h3>ทีมของพวกเรา</h3>
         <hr />
       </div>
-
+      <p>{language}</p>
       <section className={` ${styles.main}`}>
         <div className={`${"container"} `}>
           <div className="row my-3">

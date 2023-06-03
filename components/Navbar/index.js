@@ -5,10 +5,27 @@ import banner from "../../assets/header/banner.png";
 import { Nav, Button } from "react-bootstrap";
 import Logo from "../../assets/logo.png";
 import { useRouter } from "next/router";
+import { useLanguage } from "../../contexts/language/languageContext";
+import { useEffect } from "react";
 
 const Navbar = () => {
   const router = useRouter();
   var page = router.pathname;
+
+  const {language, setLanguage} = useLanguage();
+
+  const changeLanguage = () => {
+    if(language === 'TH'){
+      setLanguage('EN')
+    }else{
+      setLanguage('TH')
+    }
+  }
+  
+  useEffect(()=>{
+    setLanguage('TH')
+  },[])
+
   return (
     <div className={`${page == "/" && styles.Banner}`}>
       <Nav
@@ -82,6 +99,11 @@ const Navbar = () => {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+                <button className={`${"nav-link"} ${styles.navbarButton}`} onClick={changeLanguage}>{
+                  
+                }</button>
+              </li>
               <li className="nav-item">
                 <Link href={"/contactUs"}>
                   <a
