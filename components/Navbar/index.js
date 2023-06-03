@@ -7,24 +7,25 @@ import Logo from "../../assets/logo.png";
 import { useRouter } from "next/router";
 import { useLanguage } from "../../contexts/language/languageContext";
 import { useEffect } from "react";
+import { menuItems } from "./dropdownMenu";
 
 const Navbar = () => {
   const router = useRouter();
   var page = router.pathname;
 
-  const {language, setLanguage} = useLanguage();
+  const { language, setLanguage } = useLanguage();
 
   const changeLanguage = () => {
-    if(language === 'TH'){
-      setLanguage('EN')
-    }else{
-      setLanguage('TH')
+    if (language === "TH") {
+      setLanguage("EN");
+    } else {
+      setLanguage("TH");
     }
-  }
-  
-  useEffect(()=>{
-    setLanguage('TH')
-  },[])
+  };
+
+  useEffect(() => {
+    setLanguage("TH");
+  }, []);
 
   return (
     <div className={`${page == "/" && styles.Banner}`}>
@@ -51,58 +52,35 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse " id="navbarHome">
             <ul className="navbar-nav me-auto">
-              <li className="nav-item">
-                <Link href="/">
-                  <a
-                    className={`${"nav-link"} ${
-                      router.pathname == "/" && "active"
-                    }`}
-                    aria-current="page"
-                    href="#"
-                  >
-                    Home
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="/ourService">
-                  <a
-                    className={`${"nav-link"} ${
-                      router.pathname == "/ourService" && "active"
-                    }`}
-                  >
-                    Our Service
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="/aboutUs">
-                  <a
-                    className={`${"nav-link"} ${
-                      router.pathname == "/aboutUs" && "active"
-                    }`}
-                  >
-                    About Us
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="/executiveProfile">
-                  <a
-                    className={`${"nav-link"} ${
-                      router.pathname == "/executiveProfile" && "active"
-                    }`}
-                  >
-                    Executive profile
-                  </a>
-                </Link>
-              </li>
+              
+              
+              {menuItems.map((menu, index) => {
+                return (
+                  <li className="nav-item" key={index}>
+                    <Link href={menu.url}>
+                      <a
+                        className={`${"nav-link"} ${
+                          router.pathname == menu.url && "active"
+                        }`}
+                        aria-current="page"
+                        href="#"
+                      >
+                        {/* TODO: when feature change language is work it must change to support to this feature */}
+                        {menu.title}
+                      </a>
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
             <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-                <button className={`${"nav-link"} ${styles.navbarButton}`} onClick={changeLanguage}>{
-                  
-                }</button>
+              <li className="nav-item">
+                <button
+                  className={`${"nav-link"} ${styles.navbarButton}`}
+                  onClick={changeLanguage}
+                >
+                  {}
+                </button>
               </li>
               <li className="nav-item">
                 <Link href={"/contactUs"}>
