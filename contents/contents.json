@@ -1,0 +1,64 @@
+{
+    "en":{
+        "navbar.0":"Understand every sector of business, ready to solve every problem",
+        "navbar.1":"work efficiently to provide you with greater benefits",
+        "navbar.2":"INNOVATECH LAW",
+        "navbar.3":"because we are more than just consultants",
+
+        "home.section1.title":"Why Innovatech law",
+        "home.section1.topic1":"We have a foundation rooted in starting up businesses",
+        "home.section1.detail1":"because we began as a startup just like you. \nThis allows us to understand you better than anyone else.",
+        "home.section1.topic2":"Modern business attorney & consultant",
+        "home.section1.detail2":"Lawyers and consultants who understand the modern world. We are lawyers and consultants with over 15 years of extensive experience. We can analyze and find solutions to ensure that the business you want to pursue complies with the law and continues to meet your needs just as well as before, without any legal conflicts.",
+        "home.section1.topic3":"You are my team",
+        "home.section1.detail3":"We prioritize your problems because it is our job. The value of our work may vary, but the value you will receive remains consistent. Delivering consistent standards means delivering a thoroughly considered and well-analyzed solution. We are a unified team, and that is why we excel in providing the best possible service.",
+        
+        
+        "test":"tesrt",
+        
+
+        "home.section2.title":"Our Services",
+        "home.section2.topic1":"SME and Start-Up Business Services",
+        "home.section2.topic2":"Intellectual Property Legal Services",
+        "home.section2.topic3":"Contract and Agreement drafting services of all types.",
+        "home.section2.topic4":"Registration services for all types of businesses",
+        "home.section2.topic5":"Tax Registration and Value Added Tax (VAT) Service",
+        "home.section2.topic6":"Special Business Tax registration service is provided",
+        "home.section2.topic7":"Court / Litigation Service",
+
+        "home.section3.mycustomer": "My customer",
+
+        "footer.address":"41-43 soi.ladprao 55 saphan-song subdistrict wang thonglang district bangkok, Thailand"
+
+
+    },
+    "th":{
+        "navbar.0":"เข้าใจทุกภาคธุรกิจ พร้อมแก้ทุกปัญหา ทำงานอย่างมีประสิทธิภาพ",
+        "navbar.1":"เพื่อให้คุณได้รับประโยชน์ที่คุ้มค่ายิ่งกว่า",
+        "navbar.2":"INNOVATECH LAW",
+        "navbar.3":"เพราะเราเป็นมากกว่าที่ปรึกษา",
+        
+        "home.section1.title":"ทำไมต้อง กฎหมายอินโนเวเทค",
+        "home.section1.topic1":"มีพื้นฐานมาจากการทำธุรกิจสตาร์ทอัพ",
+        "home.section1.detail1":"เพราะเราเริ่มต้นจากการเป็นสตาร์ทอัพเหมือนคุณ\nทำให้เราเข้าใจคุณมากกว่าใคร",
+        "home.section1.topic2":"ทนายความและที่ปรึกษาเข้าใจโลกสมัยใหม่",
+        "home.section1.detail2":"เราเป็นทนายความและที่ปรึกษาที่มีมากประสบการ์กว่า 15 ปี\nเราสามารถช่วยวิเคราะห์และหาแนวทางแก้ไขเพื่อช่วยให้ธุรกิจ\nที่คุณต้องการจะทำนั้นไม่ฝ่าฝืนกฎหมายและยังคงตอบโจทย์ความต้องการของคุณอยู่เช่นเดิมได้เป็นอย่างดีแน่นอน",
+        "home.section1.topic3":"เราคือทีมของคุณ",
+        "home.section1.detail3":"เราให้ความสำคัญกับปัญหาของคุณเพราะคืองานของเรา\nมูลค่าของงานจะมากหรือน้อยต่างกันแต่คุณค่าที่คุณจะได้\nรับยังคงมาตราฐานเดียวกันคือการได้รอบมอบงานที่ผ่าน\nการคิด วิเคราะห์พิจารณาไตร่ตรองมาแล้วอย่างดีที่สุด\nเพราะเราคือทีมเดียวกัน",
+        
+
+        "home.section2.title":"บริการของเรา",
+        "home.section2.topic1":"บริการธุรกิจSME\nและธุรกิจสตาทอัพ",
+        "home.section2.topic2":"บริการด้านกฎหมายทรัพย์ทางปัญญา",
+        "home.section2.topic3":"บริการจัดทำสัญญาและข้อตกลงทุกประเภท",
+        "home.section2.topic4":"บริการจดทะเบียนธุรกิจทุกประเภท\n",
+        "home.section2.topic5":"บริการจดทะเบียนภาษีมูลค่าเพิ่ม",
+        "home.section2.topic6":"บริการจดทะเบียนภาษีธุรกิจเฉพาะ",
+        "home.section2.topic7":"บริการดำเนินคดีทางศาล",
+
+        "home.section3.mycustomer": "ลูกค้าที่ไว้วางใจเรา",
+
+        "footer.address":"41-43 ซอยลาดพร้าว 55 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานครฯ"
+
+    }
+}
