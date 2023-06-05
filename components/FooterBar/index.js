@@ -32,6 +32,7 @@ const FooterBar = () => {
               {menuItems.map((menu, index) => (
                 <Link href={menu.url}>
                 <a
+                  key={`${index}-footer`}
                   className={`${styles.footLink} ${"my-1"} ${
                     page == `${menu.url}` ? styles.linkActive : ""
                   }`}
