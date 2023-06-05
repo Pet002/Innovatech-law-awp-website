@@ -26,10 +26,16 @@ import YAKstart from '../assets/home/customers/YAKstart.png'
 
 import customer from '../assets/home/customers/customer.jpg'
 
+import content from "./../contents/contents.json"
 
 import Meta from '../components/meta'
+import { useLanguage } from '../contexts/language/languageContext'
+
+import translating from '../contents/contents'
 
 export default function Home() {
+
+  const {language} = useLanguage();
 
   return (
     <div className='container'>
@@ -38,7 +44,7 @@ export default function Home() {
 
         <div className={`${'row'} ${styles.firstContent} ${'my-2'}`}>
           <h3 className={`${'text-center'} ${'mb-3'} `}>
-            Why  Innovatech law ?
+            { language==="TH"?translating("home.section1.title","th"):translating("home.section1.title","en") }
           </h3>
           <br />
           <br />
@@ -49,10 +55,10 @@ export default function Home() {
                 <Image src={baseOn} alt='base on startUp' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-                Base on start-up type
+              { language==="TH"?translating("home.section1.topic1","th"):translating("home.section1.topic1","en") }
               </h5>
               <p className='text-center'>
-                เพราะเราเริ่มต้นจากการเป็นสตาร์ทอัพเหมือนคุณ<br />ทำให้เราเข้าใจคุณมากกว่าใคร
+              { language==="TH"?translating("home.section1.detail1","th"):translating("home.section1.detail1","en") }
               </p>
             </div>
             <div className='col-md-4 my-3'>
@@ -60,11 +66,12 @@ export default function Home() {
                 <Image src={modern} alt=' Modern business attorney & consultant' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-                Modern business	attorney & consultant
+              { language==="TH"?translating("home.section1.topic2","th"):translating("home.section1.topic2","en") }
+                
               </h5>
               <p className='text-center'>
-                เราเป็นทนายความและที่ปรึกษาที่มีมากประสบการ์กว่า 15 ปี<br />เราสามารถช่วยวิเคราะห์และหาแนวทางแก้ไขเพื่อช่วยให้ธุรกิจ<br />
-                ที่คุณต้องการจะทำนั้นไม่ฝ่าฝืนกฎหมายและยังคงตอบโจทย์ความต้องการของคุณอยู่เช่นเดิมได้เป็นอย่างดีแน่นอน
+              { language==="TH"?translating("home.section1.detail2","th"):translating("home.section1.detail2","en") }
+                
               </p>
             </div>
             <div className='col-md-4 my-3'>
@@ -72,15 +79,11 @@ export default function Home() {
                 <Image src={team} alt='You are my team' width={300} height={191} />
               </p>
               <h5 className='text-center'>
-                You are my team
+              { language==="TH"?translating("home.section1.topic3","th"):translating("home.section1.topic3","en") }
+
               </h5>
               <p className='text-center'>
-                เราให้ความสำคัญกับปัญหาของคุณเพราะคืองานของเรา<br />
-                มูลค่าของงานจะมากหรือน้อยต่างกันแต่คุณค่าที่คุณจะได้<br />
-                รับยังคงมาตราฐานเดียวกันคือการได้รอบมอบงานที่ผ่าน<br />
-                การคิด วิเคราะห์พิจารณาไตร่ตรองมาแล้วอย่างดีที่สุด <br />
-                เพราะเราคือทีมเดียวกัน
-
+                { language==="TH"?translating("home.section1.detail3","th"):translating("home.section1.detail3","en") }
               </p>
             </div>
           </div>
@@ -91,51 +94,63 @@ export default function Home() {
         <hr />
         <div className={`${'row'} ${styles.secondContent}  ${'text-center'} ${'my-5'}`}>
           <h2 className={`${styles.renderLine} ${'mb-4'}`}>
-            Our Services
+          { language==="TH"?translating("home.section2.title","th"):translating("home.section2.title","en") }
           </h2>
           
           <div className={`${'row'} ${'my-3 mt-5'}`}>
             <div className='col-md-4 my-4'>
               <Image src={startSME} alt="start SME" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}>บริการธุรกิจSME <br />และธุรกิจสตาทอัพ</h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}>
+              { language==="TH"?translating("home.section2.topic1","th"):translating("home.section2.topic1","en") }
+                </h5>
             </div>
 
             <div className='col-md-4 my-4'>
               <Image src={success} alt="success" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>
-                บริการด้านกฎหมายทรัพย์ทางปัญญา
+              { language==="TH"?translating("home.section2.topic2","th"):translating("home.section2.topic2","en") }
               </h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={Note} alt="Note" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}> บริการจัดทำสัญญาและข้อตกลงทุกประเภท </h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}>
+              { language==="TH"?translating("home.section2.topic3","th"):translating("home.section2.topic3","en") }
+              </h5>
             </div>
           </div>
           <div className='row'>
             <div className='col-md-4 my-4'>
               <Image src={script} alt="script" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}> บริการจดทะเบียนธุรกิจทุกประเภท <br/> <br /></h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}> 
+              { language==="TH"?translating("home.section2.topic4","th"):translating("home.section2.topic4","en") }
+               <br/> </h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={VAT} alt="VAT" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}> บริการจดทะเบียนภาษีมูลค่าเพิ่ม</h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}> 
+              { language==="TH"?translating("home.section2.topic5","th"):translating("home.section2.topic5","en") }
+              </h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={TAX} alt="TAX" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}>บริการจดทะเบียนภาษีธุรกิจเฉพาะ</h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}>
+              { language==="TH"?translating("home.section2.topic6","th"):translating("home.section2.topic6","en") }
+              </h5>
             </div>
           </div>
           <div className='row'>
             <div className='col-md-12 my-4'>
               <Image src={Hummer} alt="Hummer" width={150} height={100} />
-              <h5 className={`${styles.textBold2} ${'mt-3'}`}>บริการดำเนินคดีทางศาล</h5>
+              <h5 className={`${styles.textBold2} ${'mt-3'}`}>
+              { language==="TH"?translating("home.section2.topic7","th"):translating("home.section2.topic7","en") }
+              </h5>
             </div>
           </div>
         </div>
         <hr/>
         <div className={`${'row text-center '} ${styles.textBold}`}>
           <h2 className={`${styles.textBold} ${'my-5'}`}>
-            ลูกค้าที่เราไว้วางใจ
+          { language==="TH"?translating("home.section3.mycustomer","th"):translating("home.section3.mycustomer","en") }
           </h2>
           
           <div className='col-md-12'>

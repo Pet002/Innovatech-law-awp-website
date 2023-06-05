@@ -1,9 +1,8 @@
-
 html,
 body {
   height: 100%;
-  font-family: 'Kanit',BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Kanit", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -17,7 +16,11 @@ a {
   box-sizing: border-box;
 }
 
-p{
+p {
   font-weight: 549;
 }
 
+.text-center {
+  white-space: pre-line;
+  vertical-align: bottom;
+}

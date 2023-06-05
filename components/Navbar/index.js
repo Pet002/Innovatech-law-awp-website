@@ -6,8 +6,13 @@ import { Nav, Button } from "react-bootstrap";
 import Logo from "../../assets/logo.png";
 import { useRouter } from "next/router";
 import { useLanguage } from "../../contexts/language/languageContext";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { menuItems } from "./dropdownMenu";
+import Flag from "react-flagkit";
+
+import translating from "./../../contents/contents"
+
+import content from "./../../contents/contents.json"
 
 const Navbar = () => {
   const router = useRouter();
@@ -22,6 +27,19 @@ const Navbar = () => {
       setLanguage("TH");
     }
   };
+
+  const dropdownRef = useRef()
+
+  const dropdownLanguage = () => {
+    if(dropdownRef.current.style.display === "none")
+    dropdownRef.current.style.display = "flex"
+    else{
+      dropdownRef.current.style.display = "none"
+      dropdownRef.current.focus = false
+    }
+    
+    // console.log(dropdownRef.current)
+  }
 
   useEffect(() => {
     setLanguage("TH");
@@ -52,8 +70,6 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse " id="navbarHome">
             <ul className="navbar-nav me-auto">
-              
-              
               {menuItems.map((menu, index) => {
                 return (
                   <li className="nav-item" key={index}>
@@ -66,22 +82,16 @@ const Navbar = () => {
                         href="#"
                       >
                         {/* TODO: when feature change language is work it must change to support to this feature */}
-                        {menu.title}
+                        {(language==="TH") ? menu.titleTH : menu.title}
                       </a>
                     </Link>
                   </li>
                 );
               })}
             </ul>
+
+            {/* contact and language change path */}
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <button
-                  className={`${"nav-link"} ${styles.navbarButton}`}
-                  onClick={changeLanguage}
-                >
-                  {}
-                </button>
-              </li>
               <li className="nav-item">
                 <Link href={"/contactUs"}>
                   <a
@@ -91,9 +101,47 @@ const Navbar = () => {
                     aria-current="page"
                     href="#"
                   >
-                    Contact
+                    {(language === "TH")? "ติดต่อเรา" : "Contact"}
                   </a>
                 </Link>
+              </li>
+              <li className="nav-item">
+                <button
+                  onClick={dropdownLanguage}
+                  className={`${styles.buttonChangeLang} ${"nav-link"}`}
+                >
+                  {(language === "TH") ? <Flag country="TH"/> : <Flag country="US"/>}
+                  
+                </button>
+                <ul ref={dropdownRef} className={styles.dropdown}>
+                  {/* Thai Lang */}
+                  <li key="1" className={styles.langMenu}>
+                    <button
+                      className={`${styles.navbarButton}`}
+                      onClick={()=>{
+                        dropdownLanguage()
+                        setLanguage(() => "TH")
+                      }}
+                    >
+                      <Flag country="TH"/> &nbsp;
+                      ภาษาไทย
+                    </button>
+                  </li>
+
+                  {/* English Lang */}
+                  <li key="1" className={styles.langMenu}>
+                    <button
+                      className={`${styles.navbarButton}`}
+                      onClick={()=>{
+                        dropdownLanguage()
+                        setLanguage(() => "EN")
+                      }}
+                    >
+                      <Flag country="US"/> &nbsp;
+                      English
+                    </button>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -101,10 +149,10 @@ const Navbar = () => {
       </Nav>
       {page == "/" && (
         <div className={styles.bannerContent}>
-          <h2>เข้าใจทุกภาคธุรกิจ พร้อมแก้ทุกปัญหา ทำงานอย่างมีประสิทธิภาพ</h2>
-          <h2>เพื่อให้คุณได้รับประโยชน์ที่คุ้มค่ายิ่งกว่า</h2>
-          <h1>INNOVATECH LAW</h1>
-          <h1>เพราะเราเป็นมากกว่าที่ปรึกษา</h1>
+          <h2>{(language === "TH")?translating("navbar.0","th"):translating("navbar.0","en")}</h2>
+          <h2>{(language === "TH")?translating("navbar.1","th"):translating("navbar.1","en")}</h2>
+          <h1>{(language === "TH")?translating("navbar.2","th"):translating("navbar.2","en")}</h1>
+          <h1>{(language === "TH")?translating("navbar.3","th"):translating("navbar.3","en")}</h1>
         </div>
       )}
     </div>
