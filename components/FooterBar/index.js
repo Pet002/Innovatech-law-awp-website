@@ -30,7 +30,7 @@ const FooterBar = () => {
 
               {/* Navbar Menu in Footer */}
               {menuItems.map((menu, index) => (
-                <Link href={menu.url}>
+                <Link href={menu.url} key={`${index}-footer-link`}>
                 <a
                   key={`${index}-footer`}
                   className={`${styles.footLink} ${"my-1"} ${
