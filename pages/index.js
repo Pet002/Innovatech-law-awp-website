@@ -55,10 +55,11 @@ export default function Home() {
                 <Image src={baseOn} alt='base on startUp' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-              { ("home.section1.topic1",language) }
+                
+              { translating("home.section1.topic1",language) }
               </h5>
               <p className='text-center'>
-              { ("home.section1.detail1",language) }
+              { translating("home.section1.detail1",language) }
               </p>
             </div>
             <div className='col-md-4 my-3'>
@@ -66,11 +67,11 @@ export default function Home() {
                 <Image src={modern} alt=' Modern business attorney & consultant' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-              { ("home.section1.topic2",language) }
+              { translating("home.section1.topic2",language) }
                 
               </h5>
               <p className='text-center'>
-              { ("home.section1.detail2",language) }
+              { translating("home.section1.detail2",language) }
                 
               </p>
             </div>
@@ -79,7 +80,7 @@ export default function Home() {
                 <Image src={team} alt='You are my team' width={300} height={191} />
               </p>
               <h5 className='text-center'>
-              { ("home.section1.topic3",language) }
+              { translating("home.section1.topic3",language) }
 
               </h5>
               <p className='text-center'>
