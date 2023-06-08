@@ -1,5 +1,5 @@
 {
-    "en":{
+    "EN":{
         "navbar.0":"Understand every sector of business, ready to solve every problem",
         "navbar.1":"work efficiently to provide you with greater benefits",
         "navbar.2":"INNOVATECH LAW",
@@ -28,11 +28,57 @@
 
         "home.section3.mycustomer": "My customer",
 
-        "footer.address":"41-43 soi.ladprao 55 saphan-song subdistrict wang thonglang district bangkok, Thailand"
 
+
+        "aboutus.header.t1":"ABOUT US",
+        "aboutus.header.t2":"Innovatech LAW",
+
+        "aboutus.section1.t":"What many people are wondering is, who are we?",
+        "aboutus.section1.detail":"As Innovatech Law, we are an IT law firm. Due to our own background in startups, we understand the challenges faced by startups very well. That's why being a reliable consultant for the startup community is our primary goal. We aspire to be mentors and provide excellent legal advice specifically tailored to the needs of startup businesses.",
+        "aboutus.section1.quote":"\"We want to be the safest and least risky option, yet still the best choice for them.\"",
+
+        "aboutus.section2.t":"How good is our Innovatech law?",
+        "aboutus.section2.t1":"Base on start-up type",
+        "aboutus.section2.det1":"We have a foundation rooted in starting up businesses\nbecause we began as a startup just like you.\nThis allows us to understand you better than anyone else.",
+        "aboutus.section2.t2":"Modern business attorney & consultant",
+        "aboutus.section2.det2":"Lawyers and consultants who understand the modern world. We are lawyers and consultants with over 15 years of extensive experience. We can analyze and find solutions to ensure that the business you want to pursue complies with the law and continues to meet your needs just as well as before, without any legal conflicts.",
+        "aboutus.section2.t3":"You are my team",
+        "aboutus.section2.det3":"We prioritize your problems because it is our job. \nThe value of our work may vary, but the value you will receive remains consistent. Delivering consistent standards means delivering a thoroughly considered and well-analyzed solution. We are a unified team, and that is why we excel in providing the best possible service.",
+        
+        
+        "profile.header.t":"EXCUTIVE PROFILE",
+        
+        "profile.section1.name":"Mr.Apichet Wogsantisuk",
+        "profile.section1.role":"chief executive officer",
+        "profile.section1.role2":"Attorney",
+        "profile.section1.detail":"The management team of Innovatech Law AWP consists of experts in both commercial law and investment law. They provide legal consultancy services to leading companies in Thailand and abroad, with more than 15 years of experience.",
+        "profile.section2.t":"Education qualifications",
+        "profile.section2.detail":"Bachelor's Degree in Law, Faculty of Law, Ramkhamhaeng University.\n\nMaster's Degree in Business Law, Faculty of Law, Ramkhamhaeng University.\n\nMaster's Degree in Business Administration, Marketing, Graduate School, Ramkhamhaeng University.\n\nCertificate in Study of Law, Legal Training Institute, Year 2006 (B.E. 2549).\n\nCertificate in Notarial Services, Lawyer Assistant for Signature Authentication and Document (Notarial Services).\n\nCertificate in Legal Consultation in Courts with Jurisdiction over Juvenile and Family Cases.",    
+
+        "profile.section3.name":"Mr.Chanatip Wu",
+        "profile.section3.role":"Partner",
+        "profile.section3.role2":"International Legal Consultant",
+        "profile.section3.detail":"The partners of Innovatech Law AWP are legal consultants who are members of the Business Association in Taiwan and specialize in international business in Thailand. They are proficient in three languages: Thai, Chinese, and English.",
+        "profile.section4.t":"Education qualifications",
+        "profile.section4.detail":"Thammasat LL.B Bachelor of Business Law International Program\n\nAdvance Placement Chinese 5\n\nMasters Contract Drafting Course at University of Wisconsin – ",
+
+        "profile.section5.name":"Ms.Khunwarin Worataninsorn",
+        "profile.section5.role":"Co-founders",
+        "profile.section5.detail":"The co-founders of Innovatech Law AWP Co., Ltd. are young and dynamic lawyers and attorneys who are passionate about transforming the traditional legal profession to keep pace with the global technological advancements. They have experience in startup business and provide consultation services to various startup companies.",
+        "profile.section6.t":"Education qualifications",
+        "profile.section6.detail":"Bachelor's Degree in Law, Faculty of Commerce and Accountancy, Panyapiwat Institute of Management, 2016-2020.\n\nAttorney's License and Training Certificate in Legal Training, 2022.\n\nStartup Pitch Championships: Developed the \"LAWMATE\" application and advanced to the first round among 30 teams from 15 countries at the Techsauce Global Summit 2019.\n\nPitching and Negotiation course at Thammasat University.\n\nCompleted online studies in the Digital Economics course at Thammasat University.",
+
+
+        "contact.header.t":"Contact",
+        "contact.section1.t1":"Please contact us back",
+        "contact.section1.t2":"if you have any further questions or need free consultation from us, you can reach us here.",
+        "contact.section1.email":"email",
+        "contact.section1.phone":"Phone",
+        "contact.section1.address":"Address",
+        "contact.address":"41-43 soi.ladprao 55 saphan-song subdistrict wang thonglang district bangkok, Thailand"
 
     },
-    "th":{
+    "TH":{
         "navbar.0":"เข้าใจทุกภาคธุรกิจ พร้อมแก้ทุกปัญหา ทำงานอย่างมีประสิทธิภาพ",
         "navbar.1":"เพื่อให้คุณได้รับประโยชน์ที่คุ้มค่ายิ่งกว่า",
         "navbar.2":"INNOVATECH LAW",
@@ -58,7 +104,57 @@
 
         "home.section3.mycustomer": "ลูกค้าที่ไว้วางใจเรา",
 
-        "footer.address":"41-43 ซอยลาดพร้าว 55 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานครฯ"
+        "footer.address":"41-43 ซอยลาดพร้าว 55 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานครฯ",
+
+
+        "aboutus.header.t1":"เกี่ยวกับพวกเรา",
+        "aboutus.header.t2":"กฎหมายอินโนเวเทค",
+
+        "aboutus.section1.t":"สิ่งที่หลายคนกำลังสงสัย เราคือใคร ?",
+        "aboutus.section1.detail":"กฎหมายอินโนเวเทค เนื่องจากตัวเราเองก็มีพื้นฐานมาจากจากการเป็นสตาร์ทอัพเหมือนกัน เราเลยเข้าใจถึงการเป็นสตาร์ทอัพเป็นอย่างดีว่ากำลังเจอกับอะไรอยู่บ้าง จึงเป็นหัวใจหลักสำคัญในการก่อตั้ง Innovatech Law ขึ้นมาก็เพื่อต้องการที่จะเป็นเหมือนที่ปรึกษาส่วนตัวให้กับกลุ่มธุรกิจสตาร์ทอัพโดยเฉพาะ เราอยากที่จะเป็น Mentor และพร้อมช่วยให้คำปรึกษาเป็นอย่างดีในด้านกฎหมายให้กับธุรกิจกลุ่มนี้ ",
+        "aboutus.section1.quote":"“เราอยากเป็นตัวเลือกที่ปลอดภัยและมีความเสี่ยงน้อยที่สุดแต่ยังคงเป็นตัวเลือกที่ยอดเยี่ยมที่สุดให้กับพวกเขา”",
+        
+        
+        "aboutus.section2.t":"กฎหมายอินโนเวเทคของเราดีอย่างไร ?",
+        "aboutus.section2.t1":"มีพื้นฐานมาจากการทำสตาร์ทอัพ",
+        "aboutus.section2.det1":"เพราะเราเริ่มต้นจากการเป็นสตาร์ทอัพ \nเหมือนคุณทำให้เราเข้าใจคุณมากกว่าใคร",
+        "aboutus.section2.t2":"ทนายความและที่ปรึกษาเข้าใจโลกสมัยใหม่",
+        "aboutus.section2.det2":"เราเป็นทนายความและที่ปรึกษาที่มีมากประสบการ์กว่า 15 ปี\nเราสามารถช่วยวิเคราะห์และหาแนวทางแก้ไขเพื่อช่วยให้ธุรกิจ\nที่คุณต้องการจะทำนั้นไม่ฝ่าฝืนกฎหมายและยังคงตอบโจทย์ความต้องการของคุณอยู่เช่นเดิมได้เป็นอย่างดีแน่นอน",
+        "aboutus.section2.t3":"เราคือทีมของคุณ",
+        "aboutus.section2.det3":"เราให้ความสำคัญกับปัญหาของคุณเพราะคืองานของเรา\nมูลค่าของงานจะมากหรือน้อยต่างกันแต่คุณค่าที่คุณจะได้\nรับยังคงมาตราฐานเดียวกันคือการได้รอบมอบงานที่ผ่าน\nการคิด วิเคราะห์พิจารณาไตร่ตรองมาแล้วอย่างดีที่สุด เพราะเราคือทีมเดียวกัน",
+        
+
+        "profile.header.t":"ทีมของพวกเรา",
+        
+        "profile.section1.name":"นายอภิเชฏฐ์ วงศ์สันติสุข",
+        "profile.section1.role":"ประธานเจ้าหน้าที่บริหาร",
+        "profile.section1.role2":"อัยการ",
+        "profile.section1.detail":"ผู้บริหารของ Innovatech law awp ที่มีความเชี่ยวชาญทั้งกฎหมายแพ่งและกฎหมายการลงทุน และเป็นที่ปรึกษากฎหมายให้กับบริษัทชั้นนำ ของไทยและต่างประเทศ มีประสบการณ์มากกว่า 15 ปี",
+        "profile.section2.t":"วุฒิการศึกษา",
+        "profile.section2.detail":"ปริญญาตรี นิติ ศาสตร์บัณฑิต มหาวิทยาลัยรามคำแหง \n\nปริญญาโท สาขาวิชากฎหมายธุรกิจ มหาวิทยาลัยรามคำแหง \n\nปริญญาโท บริหารธุรกิจ มหาบัณฑิต สาขาวิชาการตลาดมหาวิทยาลัยรามคำแหง\n\nประกาศนียบัตร หลักสูตรวิชาว่าความ ของสานักฝึกอบรมวิชาว่าความ ปีพ.ศ 2549\n\nประกาศนียบัตร หลักสูตรทนายความ ผู้ทาคารับรองลายมือชื่อและเอกสาร(Notarial Services)\n\nประกาศนียบัตร หลักสูตรที่ปรึกษา กฎหมายในศาลที่มีอำนาจพิจารณาคดีเยาวชนและครอบครัว",    
+
+        "profile.section3.name":"นายชนาธิป วู",
+        "profile.section3.role":"หุ้นส่วน",
+        "profile.section3.role2":"ที่ปรึกษากฎหมายระหว่างประเทศ",
+        "profile.section3.detail":"ผู้เป็นหุ้นส่วน ของ Innovatech law awp เป็นที่ปรึกษากฎหมายที่เป็นสมาชิกสมาคมธุรกิจ ประเทศใต้หวันและเชี่ยวชาญด้านธุรกิจของคนต่างชาติ ในประเทศไทย สามารถสื่อสารได้ 3 ภาษา (ไทย,จีน,อังกฤษ)",
+        "profile.section4.t":"วุฒิการศึกษา",
+        "profile.section4.detail":"ปริญญาตรีนิติศาสตร์ธุรกิจโครงการนานาชาติ มหาวิทยาลัยธรรมศาสตร์\n\nอบรมหลักสูตรโครงการเพื่อเตรียมความพร้อมเข้าศึกษาต่อ ภาษาจีนระดับ 5\n\nคอร์สศึกษาความรู้เรื่องการร่างสัญญา  มหาวิทยาลัยวิสคอนซิน – เมดิสัน",
+
+        "profile.section5.name":"นางสาวกุลวรินทร์ วรธนินท์สรณ์",
+        "profile.section5.role":"ผู้ร่วมก่อตั้ง",
+        "profile.section5.detail":"ผู้ร่วมก่อตั้งบริษัทอินโนเวเทค ลอว์ เอดับเบิ้ลยูพี จำกัด นักกฎหมายและทนายความรุ่นใหม่ไฟแรง ที่มีความมุ่งมั่นเปลี่ยนแปลงโลกทนายความแบบยุคสมัยเก่าให้ก้าวทันโลกเทคโนโลยี และมีประสบการณ์ทำธุรกิจ Start-up และเป็นที่ปรึกษาให้กับสตาร์ทอัพหลากหลายบริษัท",
+        "profile.section6.t":"วุฒิการศึกษา",
+        "profile.section6.detail":"ปริญาตรี สาขาวิชา นิติศาสตร์ ปรีดรี พนมยงค์ 2016-2020 ณ มหาวิทยาลัย ธุรกิจบัณฑิตย์\n\nใบอนุญาตทนายความและหลักสูตรวิชาว่าความ ของสานักฝึกอบรมวิชาว่าความ ปี พ.ศ 2565\n\nStartup Pitch Championships ผลิตแอพพลิเคชั่น “LAWMATE“ ในงาน Techsauce Global Summit 2019 เข้ารอบ 1 ใน 30 ทีม จาก 15 ประเทศทั่วโลก\n\nPitching and Negotiation มหาวิทยาลัยธรรมศาสตร์\n\nจบการศึกษาออนไลน์หลักสูตร Digital Economics Thammasat University.",
+
+
+        "contact.header.t":"ติดต่อเรา",
+        "contact.section1.t1":"ให้เราติดต่อกลับหาคุณ",
+        "contact.section1.t2":"หากมีข้อสงสัยใดๆเพิ่มเติม หรือต้องการรับคำปรึกษาฟรีจากทางเราคุณสามารถติดต่อหาเราได้ที่นี่",
+        "contact.section1.email":"อีเมล",
+        "contact.section1.phone":"เบอร์โทร",
+        "contact.section1.address":"ที่อยู่",
+        "contact.address":"41-43 ซอยลาดพร้าว 55 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานครฯ"
+
 
     }
 }

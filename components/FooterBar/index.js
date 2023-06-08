@@ -19,7 +19,7 @@ const FooterBar = () => {
           <div className="col-md-4 mx-md-auto my-5">
             <Image src={Logo} alt="logo" width={150} height={150} />
             <p className={`${styles.text}`}>
-              {language==="TH"?translating("footer.address","th"):translating("footer.address","en")}
+              {translating("contact.address",language)}
             </p>
           </div>
           <div className="col-md-4 my-md-5">

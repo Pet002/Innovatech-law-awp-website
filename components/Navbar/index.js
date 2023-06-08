@@ -117,7 +117,7 @@ const Navbar = () => {
                   {/* Thai Lang */}
                   <li key="1" className={styles.langMenu}>
                     <button
-                      className={`${styles.navbarButton}`}
+                      className={`${styles.navbarButton} nav-link `}
                       onClick={()=>{
                         dropdownLanguage()
                         setLanguage(() => "TH")
@@ -131,7 +131,7 @@ const Navbar = () => {
                   {/* English Lang */}
                   <li key="1" className={styles.langMenu}>
                     <button
-                      className={`${styles.navbarButton}`}
+                      className={`${styles.navbarButton} nav-link`}
                       onClick={()=>{
                         dropdownLanguage()
                         setLanguage(() => "EN")
@@ -149,10 +149,10 @@ const Navbar = () => {
       </Nav>
       {page == "/" && (
         <div className={styles.bannerContent}>
-          <h2>{(language === "TH")?translating("navbar.0","th"):translating("navbar.0","en")}</h2>
-          <h2>{(language === "TH")?translating("navbar.1","th"):translating("navbar.1","en")}</h2>
-          <h1>{(language === "TH")?translating("navbar.2","th"):translating("navbar.2","en")}</h1>
-          <h1>{(language === "TH")?translating("navbar.3","th"):translating("navbar.3","en")}</h1>
+          <h2>{translating("navbar.0",language)}</h2>
+          <h2>{translating("navbar.1",language)}</h2>
+          <h1>{translating("navbar.2",language)}</h1>
+          <h1>{translating("navbar.3",language)}</h1>
         </div>
       )}
     </div>
