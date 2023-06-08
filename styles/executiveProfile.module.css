@@ -34,6 +34,12 @@
   border-radius: 5%;
 }
 
+.text{
+  white-space: pre-line;
+
+}
+
+
 @media only screen and (max-width : 767px) {
   .flexRps{
     display: flex !important;

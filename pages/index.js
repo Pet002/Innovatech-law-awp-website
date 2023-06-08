@@ -44,7 +44,7 @@ export default function Home() {
 
         <div className={`${'row'} ${styles.firstContent} ${'my-2'}`}>
           <h3 className={`${'text-center'} ${'mb-3'} `}>
-            { language==="TH"?translating("home.section1.title","th"):translating("home.section1.title","en") }
+            { translating("home.section1.title",language) }
           </h3>
           <br />
           <br />
@@ -55,10 +55,10 @@ export default function Home() {
                 <Image src={baseOn} alt='base on startUp' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-              { language==="TH"?translating("home.section1.topic1","th"):translating("home.section1.topic1","en") }
+              { ("home.section1.topic1",language) }
               </h5>
               <p className='text-center'>
-              { language==="TH"?translating("home.section1.detail1","th"):translating("home.section1.detail1","en") }
+              { ("home.section1.detail1",language) }
               </p>
             </div>
             <div className='col-md-4 my-3'>
@@ -66,11 +66,11 @@ export default function Home() {
                 <Image src={modern} alt=' Modern business attorney & consultant' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-              { language==="TH"?translating("home.section1.topic2","th"):translating("home.section1.topic2","en") }
+              { ("home.section1.topic2",language) }
                 
               </h5>
               <p className='text-center'>
-              { language==="TH"?translating("home.section1.detail2","th"):translating("home.section1.detail2","en") }
+              { ("home.section1.detail2",language) }
                 
               </p>
             </div>
@@ -79,11 +79,11 @@ export default function Home() {
                 <Image src={team} alt='You are my team' width={300} height={191} />
               </p>
               <h5 className='text-center'>
-              { language==="TH"?translating("home.section1.topic3","th"):translating("home.section1.topic3","en") }
+              { ("home.section1.topic3",language) }
 
               </h5>
               <p className='text-center'>
-                { language==="TH"?translating("home.section1.detail3","th"):translating("home.section1.detail3","en") }
+                { translating("home.section1.detail3",language) }
               </p>
             </div>
           </div>
@@ -94,27 +94,27 @@ export default function Home() {
         <hr />
         <div className={`${'row'} ${styles.secondContent}  ${'text-center'} ${'my-5'}`}>
           <h2 className={`${styles.renderLine} ${'mb-4'}`}>
-          { language==="TH"?translating("home.section2.title","th"):translating("home.section2.title","en") }
+          { translating("home.section2.title",language)}
           </h2>
           
           <div className={`${'row'} ${'my-3 mt-5'}`}>
             <div className='col-md-4 my-4'>
               <Image src={startSME} alt="start SME" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>
-              { language==="TH"?translating("home.section2.topic1","th"):translating("home.section2.topic1","en") }
+              { translating("home.section2.topic1",language) }
                 </h5>
             </div>
 
             <div className='col-md-4 my-4'>
               <Image src={success} alt="success" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>
-              { language==="TH"?translating("home.section2.topic2","th"):translating("home.section2.topic2","en") }
+              { translating("home.section2.topic2",language) }
               </h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={Note} alt="Note" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>
-              { language==="TH"?translating("home.section2.topic3","th"):translating("home.section2.topic3","en") }
+              { translating("home.section2.topic3",language) }
               </h5>
             </div>
           </div>
@@ -122,19 +122,19 @@ export default function Home() {
             <div className='col-md-4 my-4'>
               <Image src={script} alt="script" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}> 
-              { language==="TH"?translating("home.section2.topic4","th"):translating("home.section2.topic4","en") }
+              { translating("home.section2.topic4",language) }
                <br/> </h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={VAT} alt="VAT" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}> 
-              { language==="TH"?translating("home.section2.topic5","th"):translating("home.section2.topic5","en") }
+              { translating("home.section2.topic5",language) }
               </h5>
             </div>
             <div className='col-md-4 my-4'>
               <Image src={TAX} alt="TAX" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>
-              { language==="TH"?translating("home.section2.topic6","th"):translating("home.section2.topic6","en") }
+              { translating("home.section2.topic6",language) }
               </h5>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
             <div className='col-md-12 my-4'>
               <Image src={Hummer} alt="Hummer" width={150} height={100} />
               <h5 className={`${styles.textBold2} ${'mt-3'}`}>
-              { language==="TH"?translating("home.section2.topic7","th"):translating("home.section2.topic7","en") }
+              { translating("home.section2.topic7",language) }
               </h5>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
         <hr/>
         <div className={`${'row text-center '} ${styles.textBold}`}>
           <h2 className={`${styles.textBold} ${'my-5'}`}>
-          { language==="TH"?translating("home.section3.mycustomer","th"):translating("home.section3.mycustomer","en") }
+          { translating("home.section3.mycustomer",language) }
           </h2>
           
           <div className='col-md-12'>

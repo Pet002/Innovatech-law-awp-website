@@ -5,29 +5,34 @@ import modern from '../../assets/home/Modern.png'
 import team from '../../assets/home/team.png'
 
 import Meta from '../../components/meta'
+import translating from '../../contents/contents'
+import { useLanguage } from '../../contexts/language/languageContext'
 
 export default function Aboutus() {
+
+  const {language} = useLanguage();
+  
   return (
     <div >
       <Meta pageTitle="เกี่ยวกับพวกเรา"/>
       <div className={`${styles.banner} ${'text-center'} `}>
-          <h1 className={`${styles.h1}`}>เกี่ยวกับพวกเรา</h1>
-          <h2 >กฎหมายอินโนเวเทค</h2>
+          <h1 className={`${styles.h1}`}>{translating("aboutus.header.t1",language)}</h1>
+          <h2 >{translating("aboutus.header.t2",language)}</h2>
       </div>
       <div className="container">
         <main className={styles.main}>
           <div className="row my-3">
             <div className="col-md-3">
               <h3 className={`${styles.contentHeader}`}>
-              สิ่งที่หลายคนกำลังสงสัย เราคือใคร ?
+              {translating("aboutus.section1.t",language)}
               </h3>
             </div>
             <div className="col-md-9">
               <p>
-              กฎหมายอินโนเวเทค เนื่องจากตัวเราเองก็มีพื้นฐานมาจากจากการเป็นสตาร์ทอัพเหมือนกัน เราเลยเข้าใจถึงการเป็นสตาร์ทอัพเป็นอย่างดีว่ากำลังเจอกับอะไรอยู่บ้าง จึงเป็นหัวใจหลักสำคัญในการก่อตั้ง Innovatech Law ขึ้นมาก็เพื่อต้องการที่จะเป็นเหมือนที่ปรึกษาส่วนตัวให้กับกลุ่มธุรกิจสตาร์ทอัพโดยเฉพาะ เราอยากที่จะเป็น Mentor และพร้อมช่วยให้คำปรึกษาเป็นอย่างดีในด้านกฎหมายให้กับธุรกิจกลุ่มนี้ 
+              {translating("aboutus.section1.detail",language)}
               </p>
               <p className={`${styles.contentParagraph}`}>
-              “เราอยากเป็นตัวเลือกที่ปลอดภัยและมีความเสี่ยงน้อยที่สุดแต่ยังคงเป็นตัวเลือกที่ยอดเยี่ยมที่สุดให้กับพวกเขา”
+              {translating("aboutus.section1.quote",language)}
               </p>
             </div>
           </div>
@@ -36,7 +41,7 @@ export default function Aboutus() {
           <div className="row my-3 mt-5">
             <div className="col-md-5 text-center">
               <h3 className={`${styles.contentHeader}`}>
-              กฎหมายอินโนเวเทคของเราดีอย่างไร ?
+              {translating("aboutus.section2.t",language)}
               </h3>
             </div>
             <div className='col-md-7'></div>
@@ -47,10 +52,10 @@ export default function Aboutus() {
                 <Image src={baseOn} alt='base on startUp' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-                Base on start-up type
+              {translating("aboutus.section2.t1",language)}
               </h5>
               <p>
-                เพราะเราเริ่มต้นจากการเป็นสตาร์ทอัพ <br />เหมือนคุณทำให้เราเข้าใจคุณมากกว่าใคร
+              {translating("aboutus.section2.det1",language)}
               </p>
             </div>
             <div className='col-md-4 my-3 text-center'>
@@ -58,11 +63,10 @@ export default function Aboutus() {
                 <Image src={modern} alt=' Modern business attorney & consultant' width={264} height={191} />
               </p>
               <h5 className='text-center'>
-                Modern business	attorney & consultant
+              {translating("aboutus.section2.t2",language)}
               </h5>
               <p>
-                เราเป็นทนายความและที่ปรึกษาที่มีมากประสบการ์กว่า 15 ปี<br />เราสามารถช่วยวิเคราะห์และหาแนวทางแก้ไขเพื่อช่วยให้ธุรกิจ<br />
-                ที่คุณต้องการจะทำนั้นไม่ฝ่าฝืนกฎหมายและยังคงตอบโจทย์ความต้องการของคุณอยู่เช่นเดิมได้เป็นอย่างดีแน่นอน
+              {translating("aboutus.section2.det2",language)}
               </p>
             </div>
             <div className='col-md-4 my-3 text-center'>
@@ -70,14 +74,10 @@ export default function Aboutus() {
                 <Image src={team} alt='You are my team' width={300} height={191} />
               </p>
               <h5 className='text-center'>
-                You are my team
+              {translating("aboutus.section2.t3",language)}
               </h5>
               <p>
-                เราให้ความสำคัญกับปัญหาของคุณเพราะคืองานของเรา<br />
-                มูลค่าของงานจะมากหรือน้อยต่างกันแต่คุณค่าที่คุณจะได้<br />
-                รับยังคงมาตราฐานเดียวกันคือการได้รอบมอบงานที่ผ่าน<br />
-                การคิด วิเคราะห์พิจารณาไตร่ตรองมาแล้วอย่างดีที่สุด เพราะเราคือทีมเดียวกัน
-
+              {translating("aboutus.section2.det3",language)}
               </p>
             </div>
           </div>

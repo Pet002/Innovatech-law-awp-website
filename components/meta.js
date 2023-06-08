@@ -14,7 +14,7 @@ export default function Meta({pageTitle}){
 
             <meta property="og:locale" content="th_TH" />
 			<meta property='og:type' content='website' />
-            <meta property='og:title' content={`Innovatech Law AWP ${(pageTitle != "Innovatech Law AWP") ? (`| ${pageTitle}`) : ("")}`} />
+            <meta property='og:title' content={`Innovatech Law AWP(กฎหมายอินโนเวเทค) ${(pageTitle != "Innovatech Law AWP") ? (`| ${pageTitle}`) : ("")}`} />
 			<meta property='og:description' content='เข้าใจทุกภาคธุรกิจ พร้อมแก้ทุกปัญหา ทำงานอย่างมีประสิทธิภาพ เพื่อให้คุณได้รับประโยชน์ที่คุ้มค่ายิ่งกว่า' />
 			<meta property='og:url' content={`https://www.innovatechlawawp.com${router.pathname}`} />
 			<meta property="og:site_name" content="Innovatech Law AWP"/>
