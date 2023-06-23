@@ -1,7 +1,47 @@
-.main{
-    min-height: 100vh;
-    padding: 4rem 0;
+.main {
+  /* min-height: 100vh; */
+  padding: 4rem 0;
 }
-.cardHeight{
-    min-height: 20em;
+.card {
+  min-height: 20em;
+  min-width: 20em;
+  /* border: 1px solid; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cardLast{
+    grid-column: 2/3;
+}
+
+/* .card:last-child{} */
+
+
+
+.contentBlock {
+  display: grid;
+  /* flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+  /* gap: 5em; */
+  grid-template-columns: repeat(3, auto);
+  gap: 3em;
+  margin: 5em 0 10em 0;
+  /* align-items: baseline; */
+}
+
+
+
+.cardTitle{
+    cursor: default;
+}
+
+.card:hover,
+.card:focus {
+  background: #fff;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border: none;
 }
