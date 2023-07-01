@@ -60,9 +60,9 @@ const FooterBar = () => {
                   className={`${styles.footLink} ${"my-1"} ${
                     styles.linkActive
                   }`}
-                  href="tel: 083-516-2915"
+                  href="tel: 099-746-2615"
                 >
-                  083-516-2915
+                  099-746-2615
                 </a>
               </span>
             </div>
