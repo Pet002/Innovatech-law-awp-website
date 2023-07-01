@@ -37,8 +37,8 @@ export default function OutServices() {
             <h5>
               <i className="bi bi-phone"></i> {translating("contact.section1.phone",language)} : &nbsp;
               <span itemProp="telephone">
-                <a href="tel: 083-516-2915" className={styles.link}>
-                  083-516-2915
+                <a href="tel: 099-746-2615" className={styles.link}>
+                  099-746-2615
                 </a>
               </span>
             </h5>
