@@ -21,7 +21,9 @@ export default function OutServices() {
 
   return (
     <div className='container'>
-      <Meta pageTitle="บริการของเรา"/>
+      <Meta pageTitle={
+              translating("ourservice.header", language)
+            }/>
       <main className={styles.main}>
         <div className='row'>
           <h2 className={`${'text-center'} ${'mb-3'}`}>

@@ -14,7 +14,7 @@ export default function Aboutus() {
   
   return (
     <div >
-      <Meta pageTitle="เกี่ยวกับพวกเรา"/>
+      <Meta pageTitle={translating("aboutus.header.t1",language)}/>
       <div className={`${styles.banner} ${'text-center'} `}>
           <h1 className={`${styles.h1}`}>{translating("aboutus.header.t1",language)}</h1>
           <h2 >{translating("aboutus.header.t2",language)}</h2>

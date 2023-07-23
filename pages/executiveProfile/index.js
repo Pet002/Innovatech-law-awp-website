@@ -18,7 +18,7 @@ export default function ExcutiveProfile() {
   const { language } = useLanguage();
   return (
     <main>
-      <Meta pageTitle="Excutive Profile" />
+      <Meta pageTitle={translating("profile.header.t",language)} />
       <div id="banner" className={`${styles.banner}`}>
         <h1>{translating("profile.header.t",language)}</h1>
         <hr />

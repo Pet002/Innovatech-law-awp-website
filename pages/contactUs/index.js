@@ -7,7 +7,7 @@ export default function OutServices() {
   const {language} = useLanguage()
   return (
     <main>
-      <Meta pageTitle="ติดต่อเรา" />
+      <Meta pageTitle={translating("contact.header.t",language)} />
       <div className={`${styles.banner}`}>
         <h1>{translating("contact.header.t",language)}</h1>
       </div>
