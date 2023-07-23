@@ -25,7 +25,7 @@ const FooterBar = () => {
           <div className="col-md-4 my-md-5">
             <div className="row">
               <h4 className={`${styles.text} `}>
-                {language==="TH"?"เมนู": "Menu"}
+                {language==="TH"?"เมนู": language==="EN" ? "Menu" :"菜单"}
               </h4>
 
               {/* Navbar Menu in Footer */}
@@ -37,7 +37,7 @@ const FooterBar = () => {
                     page == `${menu.url}` ? styles.linkActive : ""
                   }`}
                 >
-                  {language==="TH"?menu.titleTH:menu.title}
+                  {language==="TH"?menu.titleTH: language==="EN" ? menu.title : menu.titleCN}
                 </a>
               </Link>
               ))}
@@ -46,7 +46,7 @@ const FooterBar = () => {
           <div className="col-md-4 my-5">
             <div className="row">
               <h5 className={`${styles.text} `}>
-                {language==="TH"?"ติดต่อเรา":"contact us"}
+                {language==="TH"?"ติดต่อเรา": language==="EN" ? "contact us" : "联系方式"}
               </h5>
 
               <a
