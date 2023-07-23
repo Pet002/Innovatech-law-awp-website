@@ -12,33 +12,77 @@ import Card from '../../components/Card'
 
 
 import Meta from '../../components/meta'
+import { useLanguage } from '../../contexts/language/languageContext'
+import translating from '../../contents/contents'
 
 export default function OutServices() {
+
+  const {language} = useLanguage();
+
   return (
     <div className='container'>
       <Meta pageTitle="บริการของเรา"/>
       <main className={styles.main}>
         <div className='row'>
           <h2 className={`${'text-center'} ${'mb-3'}`}>
-            บริการของเรา
+            {
+              translating("ourservice.header", language)
+            }
           </h2>
         </div>
         <div className='row'>
-          <Card images={startSME} altImages="SME" title="บริการธุรกิจSME และธุรกิจสตาทอัพ" text="ในโลกยุคใหม่ การค้าขาย การทำธุรกิจ เป็นออนไลน์กันหมดแทบจะ 100% ทำให้มีช่องทางการถูกเอารัดเอาเปรียบจากคนบางกลุ่มได้ง่าย และกฎหมายใดบ้างล่ะที่เกี่ยวข้องกับธุรกิจสตาทอัพของคุณเพื่อที่จะคุ้มครองสิทธิของ คุณก็ขึ้นอยู่กับว่าคุณทำธุรกิจเกี่ยวข้องกับอะไรส่งข้อความหาเรา เพื่อขอคำปรึกษากับเราโดยไม่เสียค่าใช้จ่าย และเราจะติดต่อกลับให้เร็วที่สุด " link="/ourService/SME" />
-          <Card images={success} altImages="correct" title="บริการด้านกฎหมายทรัพย์ทางปัญญา" text="ทรัพย์สินทางปัญญา (Intellectual Property) ผลงานอันเกิดจากการ ประดิษฐ์ คิดค้น หรือสร้างสรรค์ของมนุษย์ ซึ่งเน้นที่ผลผลิตของสติปัญญาและความชำนาญ โดยไม่คำนึงถึงชนิดของการสร้างสรรค์หรือวิธีใน การแสดงออก เช่น สินค้าต่าง ๆ การบริการ กรรมวิธีการผลิตทางอุตสาหกรรม เป็นต้น" link="/ourService" />
-          <Card images={script} altImages="paper" title="บริการจดทะเบียนธุรกิจทุกประเภท" text="&nbsp&nbsp&nbsp&nbsp&nbsp มีได้แก่ <br/>
-                                                                        >> จดทะเบียนบริษัท <br/>
-                                                                        >> จดทะเบียนบริษัทมหาชนจำกัด <br/>
-                                                                        >> ห้างหุ้นส่วนจำกัด <br/>
-                                                                        >> จดทะเบียนพาณิชย์ <br/>
-                                                                        >> จดทะเบียนขออนุญาติปลูกกัญชา <br/>
-                                                                        >> จดทะเบียนขออนุญาติเปิดคลินิค <br/>
-                                                                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp etc.
-                                                                        " link="/" />
-          <Card images={Note} altImages="Notebook" title="บริการจัดทำสัญญาและข้อตกลงทุกประเภท" text="ทางพวกเราสามารถให้ท่านออกแบบสัญญา และข้อตกลงในทุกรูปแบบ ไม่ว่าจะเป็น สัญญาการร่วมลงทุน สัญญาการเข้าเป็นผู้ถือหุ้น หรือสัญญากู้ยืมเงินของบริษัทฯ และอื่นๆ โดยเราให้ท่านสามารถสร้างเองได้ หรือ ให้เราจัดทำให้ได้เลยโดยตรงเพียงแค่ท่านติดต่อมาหาเรา เราจะจัดการให้ในทันที" link="/" />
-          <Card images={VAT} altImages="VAT" title="บริการจดทะเบียนภาษีมูลค่าเพิ่ม" text="การเก็บภาษีจากการขายสินค้า หรือการให้บริการในแต่ละขั้นตอนการผลิต และจำหน่ายสินค้า หรือบริการ ทั้งที่ผลิตภายในประเทศและนำเข้าจากต่างประเทศ โดยอัตราที่ผู้ประกอบการจะเก็บภาษีมูลค่าเพิ่มในประเทศไทยคือ 7%" link="/" />
-          <Card images={TAX} altImages="TAX" title="บริการจดทะเบียนภาษีธุรกิจเฉพาะ" text="ภาษีที่เก็บจากกิจการบางประเภทที่กฎหมายกำหนดเป็นพิเศษแยกจากภาษีมูลค่าเพิ่ม โดยกรมสรรพากรเป็นผู้จัดเก็บจากธุรกิจที่เป็นบุคคลธรรมดาหรือนิติบุคคล โดยผู้ประกอบการที่มีหน้าที่เสียภาษีธุรกิจเฉพาะ ต้องยื่นคำขอจดทะเบียนภาษีธุรกิจเฉพาะด้วยแบบคำขอ ภ.ธ.01 ภายใน 30 วันนับแต่วันเริ่มกิจการ" link="/" />
-          <Card images={Hummer} altImages="Judge Hammer" title="บริการดำเนินคดีทางศาล" text="ในการดำเนินคดีทางกฎหมายทางเราได้มีทนายที่จะช่วยเหลือคุณในการจัดการทางด้านกฎหมายมากความสามารถ โดยเรามีความสามารถทั้งในด้าน คดีแพ่ง คดีอาญา คดีแรงงาน คดีมรดก คดีครอบครัว คดีคุ้มครองผู้บริโภค " link="/" />
+          <Card 
+          images={startSME} 
+          altImages="SME" 
+          title={translating("ourservice.SME.title", language)}
+          text={translating("ourservice.SME.content", language)}
+          link="/ourService/SME" />
+
+
+          <Card 
+          images={success} 
+          altImages="correct" 
+          title={translating("ourservice.License.title", language)}
+          text={translating("ourservice.License.content", language)}
+          link="/ourService" />
+          
+          <Card 
+          images={script} 
+          altImages="paper" 
+          title={translating("ourservice.business.title", language)} 
+          text={translating("ourservice.business.content", language)}
+          link="/" />
+
+          <Card 
+          images={Note} 
+          altImages="Notebook" 
+          title={translating("ourservice.promise.title", language)} 
+          text={translating("ourservice.promise.content", language)}
+          link="/" />
+
+
+          <Card 
+          images={VAT} 
+          altImages="VAT" 
+          title={translating("ourservice.vat.title", language)} 
+          text={translating("ourservice.vat.content", language)}
+          link="/" />
+
+
+          <Card 
+          images={TAX} 
+          altImages="TAX" 
+          title={translating("ourservice.tax.title", language)} 
+          text={translating("ourservice.tax.content", language)}
+          link="/" />
+
+
+          <Card 
+          images={Hummer} 
+          altImages="Judge Hammer" 
+          title={translating("ourservice.court.title", language)} 
+          text={translating("ourservice.court.content", language)}
+          link="/" />
           
         </div>
       </main>

@@ -82,7 +82,7 @@ const Navbar = () => {
                         href="#"
                       >
                         {/* TODO: when feature change language is work it must change to support to this feature */}
-                        {(language==="TH") ? menu.titleTH : menu.title}
+                        {(language==="TH") ? menu.titleTH : (language==="EN") ? menu.title : menu.titleCN}
                       </a>
                     </Link>
                   </li>
@@ -101,7 +101,7 @@ const Navbar = () => {
                     aria-current="page"
                     href="#"
                   >
-                    {(language === "TH")? "ติดต่อเรา" : "Contact"}
+                    {(language === "TH")? "ติดต่อเรา" :  (language === "EN") ? "Contact" : "联系方式"}
                   </a>
                 </Link>
               </li>
@@ -110,7 +110,7 @@ const Navbar = () => {
                   onClick={dropdownLanguage}
                   className={`${styles.buttonChangeLang} ${"nav-link"}`}
                 >
-                  {(language === "TH") ? <Flag country="TH"/> : <Flag country="US"/>}
+                  {(language === "TH") ? <Flag country="TH"/> : (language === "EN") ? <Flag country="US"/> : <Flag country="CN"/>}
                   
                 </button>
                 <ul ref={dropdownRef} className={styles.dropdown}>
@@ -139,6 +139,20 @@ const Navbar = () => {
                     >
                       <Flag country="US"/> &nbsp;
                       English
+                    </button>
+                  </li>
+
+                  {/* CHINA LANGUAGE */}
+                  <li key="1" className={styles.langMenu}>
+                    <button
+                      className={`${styles.navbarButton} nav-link`}
+                      onClick={()=>{
+                        dropdownLanguage()
+                        setLanguage(() => "CN")
+                      }}
+                    >
+                      <Flag country="CN"/> &nbsp;
+                      中国
                     </button>
                   </li>
                 </ul>

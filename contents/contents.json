@@ -75,7 +75,31 @@
         "contact.section1.email":"email",
         "contact.section1.phone":"Phone",
         "contact.section1.address":"Address",
-        "contact.address":"41-43 soi.ladprao 55 saphan-song subdistrict wang thonglang district bangkok, Thailand"
+        "contact.address":"41-43 soi.ladprao 55 saphan-song subdistrict wang thonglang district bangkok, Thailand",
+
+
+
+
+
+        "ourservice.header":"Our service",
+
+
+        "ourservice.SME.title":"SME and Start-Up Business Services",
+        "ourservice.License.title":"Intellectual Property Legal Services",
+        "ourservice.business.title":"Registration services for all types of businesses",
+        "ourservice.promise.title":"Contract and Agreement drafting services of all types",
+        "ourservice.vat.title":"Tax Registration and Value Added Tax (VAT) Service",
+        "ourservice.tax.title":"Special Business Tax registration service is provided",
+        "ourservice.court.title":"Court / Litigation Service",
+
+        "ourservice.SME.content":"In the new era, almost 100% of trade and business activities are conducted online, making it easier for certain groups of people to take advantage and exploit others. To protect your rights, it is crucial to understand which laws are relevant to your start-up business. To seek consultation from us without any cost, please send us a message specifying your business-related concerns. We will get back to you as soon as possible.",
+        "ourservice.License.content":"Intellectual Property refers to creations of the mind, such as inventions, innovations, or artistic works, emphasizing the products of intellect and expertise. It encompasses various forms of creative expression, regardless of the method of manifestation, such as different products, services, industrial processes, and more.",
+        "ourservice.business.content":">>Company Registration<br/>>>Registration of Public Company  <br/>>>Registration of Limited Partnership  <br/>>>Registration of Commercial License <br/>>> Registration services for commercial buildings/businesses: <br/>Commercial building/business registration <br/>>>Specialized business registration <br/>>>Medical Marijuana License registration <br/>>>Clinic License registration <br/>",
+        "ourservice.promise.content":"Contract and Agreement drafting services of all types are provided. For example, investment agreements, shareholder agreements, company loan agreements, and others. You can either create them on your own with our assistance or we can directly handle the drafting process for you. Simply contact us, and we will promptly take care of it.",
+        "ourservice.vat.content":"This includes the collection of taxes on the sale of goods or provision of services at each stage of production and distribution, both for domestically produced and imported goods or services The current VAT rate for businesses collecting VAT in Thailand is 7%",
+        "ourservice.tax.content":"This tax is separate from Value Added Tax (VAT) and is specifically imposed on certain types of businesses as prescribed by the law. The Revenue Department is responsible for collecting this tax from both individuals and legal entities engaged in these businesses. Business operators who are obligated to pay Special Business Tax must submit a registration application using Form Phor.Tor.01 within 30 days from the start of their business operations.",
+        "ourservice.court.content":"In handling legal cases, we have attorneys who can assist you in managing legal matters with great expertise. We have capabilities in various areas, including civil cases, criminal cases, labor cases, inheritance cases, family cases, and consumer protection cases. "
+
 
     },
     "TH":{
@@ -153,7 +177,131 @@
         "contact.section1.email":"อีเมล",
         "contact.section1.phone":"เบอร์โทร",
         "contact.section1.address":"ที่อยู่",
-        "contact.address":"41-43 ซอยลาดพร้าว 55 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานครฯ"
+        "contact.address":"41-43 ซอยลาดพร้าว 55 แขวงสะพานสอง เขตวังทองหลาง กรุงเทพมหานครฯ",
+
+
+        "ourservice.header":"บริการของเรา",
+
+        "ourservice.SME.title":"บริการธุรกิจSME และธุรกิจสตาทอัพ",
+        "ourservice.License.title":"บริการด้านกฎหมายทรัพย์ทางปัญญา",
+        "ourservice.business.title":"บริการจดทะเบียนธุรกิจทุกประเภท",
+        "ourservice.promise.title":"บริการจัดทำสัญญาและข้อตกลงทุกประเภท",
+        "ourservice.vat.title":"บริการจดทะเบียนภาษี และ ภาษีมูลค่าเพิ่ม",
+        "ourservice.tax.title":"บริการจดทะเบียนภาษีธุรกิจเฉพาะ",
+        "ourservice.court.title":"บริการดำเนินคดีทางศาล",
+
+        "ourservice.SME.content":"ในโลกยุคใหม่ การค้าขาย การทำธุรกิจ เป็นออนไลน์กันหมดแทบจะ 100% ทำให้มีช่องทางการถูกเอารัดเอาเปรียบจากคนบางกลุ่มได้ง่าย และกฎหมายใดบ้างล่ะที่เกี่ยวข้องกับธุรกิจสตาทอัพของคุณเพื่อที่จะคุ้มครองสิทธิของ คุณก็ขึ้นอยู่กับว่าคุณทำธุรกิจเกี่ยวข้องกับอะไรส่งข้อความหาเรา เพื่อขอคำปรึกษากับเราโดยไม่เสียค่าใช้จ่าย และเราจะติดต่อกลับให้เร็วที่สุด",
+        "ourservice.License.content":"ทรัพย์สินทางปัญญา (Intellectual Property) ผลงานอันเกิดจากการ ประดิษฐ์ คิดค้น หรือสร้างสรรค์ของมนุษย์ ซึ่งเน้นที่ผลผลิตของสติปัญญาและความชำนาญ โดยไม่คำนึงถึงชนิดของการสร้างสรรค์หรือวิธีใน การแสดงออก เช่น สินค้าต่าง ๆ การบริการ กรรมวิธีการผลิตทางอุตสาหกรรม เป็นต้น",
+        "ourservice.business.content":"&nbsp&nbsp&nbsp&nbsp&nbsp มีได้แก่ <br/> >> จดทะเบียนบริษัท <br/> >> จดทะเบียนบริษัทมหาชนจำกัด <br/> >> ห้างหุ้นส่วนจำกัด <br/> >> จดทะเบียนพาณิชย์ <br/> >> จดทะเบียนขออนุญาติปลูกกัญชา <br/> >> จดทะเบียนขออนุญาติเปิดคลินิค <br/> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp etc.",
+        "ourservice.promise.content":"ทางพวกเราสามารถให้ท่านออกแบบสัญญา และข้อตกลงในทุกรูปแบบ ไม่ว่าจะเป็น สัญญาการร่วมลงทุน สัญญาการเข้าเป็นผู้ถือหุ้น หรือสัญญากู้ยืมเงินของบริษัทฯ และอื่นๆ โดยเราให้ท่านสามารถสร้างเองได้ หรือ ให้เราจัดทำให้ได้เลยโดยตรงเพียงแค่ท่านติดต่อมาหาเรา เราจะจัดการให้ในทันที",
+        "ourservice.vat.content":"การเก็บภาษีจากการขายสินค้า หรือการให้บริการในแต่ละขั้นตอนการผลิต และจำหน่ายสินค้า หรือบริการ ทั้งที่ผลิตภายในประเทศและนำเข้าจากต่างประเทศ โดยอัตราที่ผู้ประกอบการจะเก็บภาษีมูลค่าเพิ่มในประเทศไทยคือ 7%",
+        "ourservice.tax.content":"ภาษีที่เก็บจากกิจการบางประเภทที่กฎหมายกำหนดเป็นพิเศษแยกจากภาษีมูลค่าเพิ่ม โดยกรมสรรพากรเป็นผู้จัดเก็บจากธุรกิจที่เป็นบุคคลธรรมดาหรือนิติบุคคล โดยผู้ประกอบการที่มีหน้าที่เสียภาษีธุรกิจเฉพาะ ต้องยื่นคำขอจดทะเบียนภาษีธุรกิจเฉพาะด้วยแบบคำขอ ภ.ธ.01 ภายใน 30 วันนับแต่วันเริ่มกิจการ",
+        "ourservice.court.content":"ในการดำเนินคดีทางกฎหมายทางเราได้มีทนายที่จะช่วยเหลือคุณในการจัดการทางด้านกฎหมายมากความสามารถ โดยเรามีความสามารถทั้งในด้าน คดีแพ่ง คดีอาญา คดีแรงงาน คดีมรดก คดีครอบครัว คดีคุ้มครองผู้บริโภค "
+
+
+
+
+
+    },
+
+    "CN":{
+        "navbar.0":"我们了解每个商业领域，随时准备解决各种问题",
+        "navbar.1":"工作效率高，为您增取更的利益",
+        "navbar.2":"INNOVATECH LAW",
+        "navbar.3":"因为我们不只是顾问",
+        
+        "home.section1.title":"为什么Innovatech Law ?",
+        "home.section1.topic1":"我们的基础源于新创企业，",
+        "home.section1.detail1":"因为我们跟您一样从新创企业起步。\n使我们比任何人都更了解您。",
+        "home.section1.topic2":"现代商务律师和顾问",
+        "home.section1.detail2":"我们是了解现代世界的律师和法律顾问。\n我们拥有超过 15 年的经验。\n我们可以分析并找到解决方案，\n确保您追求的业务符合法律，\n并且满足您的需求，\n而不引发任何法律冲突。",
+        "home.section1.topic3":"我们是你的团队",
+        "home.section1.detail3":"我们优先考虑您的问题，\n因为这是我们的责任。\n我们的服务费可能会有差异，\n但您将获得的价值始终保持一致。\n我们提供经过深思熟虑和充分分析的解决方案。\n我们是一个团结的团队，\n这就是我们提供最佳服务的原因。",
+        
+
+        "home.section2.title":"我们的服务",
+        "home.section2.topic1":"中小企业和新创企业",
+        "home.section2.topic2":"知识产权法律服务知识产权法律服务",
+        "home.section2.topic3":"提供各类合同和协议起草服务。",
+        "home.section2.topic4":"各类企业的注册服务\n",
+        "home.section2.topic5":"税务登记和增值税（VAT）服务",
+        "home.section2.topic6":"提供特殊业务税注册服务",
+        "home.section2.topic7":"法院/诉讼服务",
+
+        "home.section3.mycustomer": "Our Customer",
+
+        "footer.address":"泰国曼谷旺通郎区萨潘颂巷55号41-43号",
+
+
+        "aboutus.header.t1":"关于我们",
+        "aboutus.header.t2":"Innovatech LAW",
+
+        "aboutus.section1.t":"许多人都在想，我们是谁？",
+        "aboutus.section1.detail":"Innovatech Law 我们是一家专注于IT法律的律师事务所。由于我们自己在创业领域的背景，我们非常了解创业公司所面临的挑战。因此，成为创业社区可靠的顾问是我们的首要目标。我们渴望成为导师，为创业企业量身定制出色的法律建议。",
+        "aboutus.section1.quote":"“我们希望成为最安全、最低风险的选择，但同时仍然是他们最好的选择”",
+        
+        
+        "aboutus.section2.t":"我们Innovatech law的服务有多好?",
+        "aboutus.section2.t1":"我们的基础根植于创业",
+        "aboutus.section2.det1":"因为我们跟您一样从新创企业起步。\n使我们比任何人都更了解您。",
+        "aboutus.section2.t2":"现代商务律师和顾问",
+        "aboutus.section2.det2":"我们是了解现代世界的律师和法律顾问。\n我们拥有超过 15 年的经验。\n我们可以分析并找到解决方案，\n确保您追求的业务符合法律，\n并且满足您的需求，\n而不引发任何法律冲突。",
+        "aboutus.section2.t3":"我们是你的团队",
+        "aboutus.section2.det3":"我们优先考虑您的问题，\n因为这是我们的责任。\n我们的服务费可能会有差异，\n但您将获得的价值始终保持一致。\n我们提供经过深思熟虑和充分分析的解决方案。\n我们是一个团结的团队，\n这就是我们提供最佳服务的原因。",
+
+
+        "profile.header.t":"高管简介",
+        
+        "profile.section1.name":"Mr.Apichet Wogsantisuk",
+        "profile.section1.role":"CEO",
+        "profile.section1.role2":"律师",
+        "profile.section1.detail":"管理团队 Innovatech Law AWP 管理团队由商法和投资法领域的专家组成。他们为泰国和国际知名公司提供法律咨询服务，拥有超过15年的经验。",
+        "profile.section2.t":"教育资格",
+        "profile.section2.detail":"法学学士学位，拉姆卡姆欣大学法学院。\n\n商法硕士学位，拉姆卡姆欣大学法学院。\n\n工商管理硕士学位，市场营销专业，拉姆卡姆欣大学研究生院。\n\n法律研究证书，法律培训学院，2006年（泰历2549年）。\n\n公证服务证书，律师助理签名认证和文件（公证服务）。\n\n在管辖青少年和家庭案件法庭的法律咨询证书。",    
+        
+        "profile.section3.name":"Mr.Chanatip Wu",
+        "profile.section3.role":"合伙人们",
+        "profile.section3.role2":"国际法律顾问",
+        "profile.section3.detail":"合伙人们的 Innovatech Law AWP 是台湾商业协会的法律顾问，专门从事泰国国际业务。他们精通三种语言：泰语、中文和英语。",
+        "profile.section4.t":"教育资格",
+        "profile.section4.detail":"塔姆萨特法学学士学位，国际商法专业\n\n高级中文课程5\n\n威斯康星大学合同起草硕士课程\n\n",
+
+        "profile.section5.name":"Ms.Khunwarin Worataninsorn",
+        "profile.section5.role":"联合创始人",
+        "profile.section5.detail":"聯合創始人 Innovatech Law AWP Co., Ltd. 是年轻而充满活力的律师，他们对将传统的法律行业与全球技术进步相结合充满热情。他们在创业领域有丰富经验，并为各种创业公司提供咨询服务。",
+        "profile.section6.t":"教育资格",
+        "profile.section6.detail":"法學學士 Dhurakij Pundit University.\n\n2022年获得律师执照和法律培训证书。\n\n创业演讲锦标赛：在2019年的Techsauce全球峰会上，开发了“LAWMATE”应用程序，并在来自15个国家的30支团队中晋级到第一轮。\n\n在曼谷大学参加演讲和谈判课程。\n\n",
+
+
+        "contact.header.t":"联系方式",
+        "contact.section1.t1":"请与我们联系回复",
+        "contact.section1.t2":"如果您有任何进一步的问题或需要我们的免费咨询，您可以在此处联系我们。",
+        "contact.section1.email":"电子邮件 ",
+        "contact.section1.phone":"电话 ",
+        "contact.section1.address":"地址 ",
+        "contact.address":"泰国曼谷旺通郎区萨潘颂巷55号41-43号",
+
+
+        "ourservice.header":"我们的服务",
+
+        "ourservice.SME.title":"中小企业和新创企业",
+        "ourservice.License.title":"知识产权法律服务知识产权法律服务",
+        "ourservice.business.title":"各类企业的注册服务",
+        "ourservice.promise.title":"提供各类合同和协议起草服务。",
+        "ourservice.vat.title":"税务登记和增值税（VAT）服务",
+        "ourservice.tax.title":"提供特殊业务税注册服务",
+        "ourservice.court.title":"法院/诉讼服务",
+
+        "ourservice.SME.content":"在新时代，几乎 100% 的贸易和商业活动都是在线上进行的，这使得某些人群更容易利用和剥削他人。为了保护您的权益，了解与您的创业业务相关的法律至关重要。如果您想免费咨询我们，请发送一条信息，具体说明您与业务相关的关切。我们会尽快回复您。",
+        "ourservice.License.content":"知识产权是指各种形式的财产，如商标、版权、专利等，是人类智慧创造的成果。它强调智力和专业知识的产物，无论创作方式或表现形式如何，涵盖了各种创造性表达，包括不同的产品、服务、工业流程等。",
+        "ourservice.business.content":"&nbsp&nbsp&nbsp&nbsp&nbsp 公司注册<br/>注册上市公司<br/>注册有限合伙<br/>商业注册<br/>商业建筑/企业的注册服务：<br/>商业建筑/企业注册<br/>专业业务注册<br/>医疗大麻许可证注册<br/>诊所许可证注册<br/>",
+        "ourservice.promise.content":"我们提供各类合同和协议起草服务。例如，投资协议、股东协议、公司借贷协议等等。您可以在我们的协助下自行起草，或者我们可以直接为您处理起草过程。只需与我们联系，我们将迅速处理。",
+        "ourservice.vat.content":"这包括在生产和分销的每个阶段对商品销售或服务提供征收税款，无论是国内生产还是进口的商品或服务。目前在泰国增值税为7%。",
+        "ourservice.tax.content":"该税项与增值税（VAT）是分开征收的，专门针对法律规定的某些类型的企业征收。财政部门负责向从事这些业务的个人和法人收取此税款。有义务缴纳特殊业务税的经营者必须在业务运营开始后的30天内，使用Phor.Tor.01表格提交注册申请。",
+        "ourservice.court.content":"在处理法律案件方面，我们有律师可以以专业的知识帮助您处理法律事务。我们在各个领域都有能力，包括民事案件、刑事案件、劳动案件、继承案件、家庭案件和消费者保护案件。"
+
+
+
 
 
     }
