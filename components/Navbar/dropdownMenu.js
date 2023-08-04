@@ -16,12 +16,6 @@ export const menuItems = [
         titleTH:"เกี่ยวกับเรา",
         titleCN:"关于我们",
         url:"/aboutUs"
-    },
-    {
-        title:"Executive profile",
-        titleTH:"ทีมของพวกเรา",
-        titleCN:"高管简介",
-        url:"/executiveProfile"
     }
 
 ]
