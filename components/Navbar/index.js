@@ -47,120 +47,120 @@ const Navbar = () => {
 
   return (
     <div className={`${page == "/" && styles.Banner}`}>
-      <Nav
-        className={`${"navbar navbar-expand-lg navbar-dark"} ${
-          page != "/" && styles.bgNavbar
-        }`}
-      >
-        <div className={`${"container"}`}>
-          <Link href="/">
-            <a className="navbar-brand ">
-              <Image src={Logo} alt="logo" width={100} height={100} />
-            </a>
-          </Link>
-          <button
-            className="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarHome"
-            aria-controls="navbarHome"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse " id="navbarHome">
-            <ul className="navbar-nav me-auto">
-              {menuItems.map((menu, index) => {
-                return (
-                  <li className="nav-item" key={index}>
-                    <Link href={menu.url}>
-                      <a
-                        className={`${"nav-link"} ${
-                          router.pathname == menu.url && "active"
-                        }`}
-                        aria-current="page"
-                        href="#"
-                      >
-                        {/* TODO: when feature change language is work it must change to support to this feature */}
-                        {(language==="TH") ? menu.titleTH : (language==="EN") ? menu.title : menu.titleCN}
-                      </a>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
+        <Nav
+          className={`${"navbar navbar-expand-lg navbar-dark"} ${
+            page != "/" && styles.bgNavbar
+          }`}
+        >
+          <div className={`${"container"}`}>
+            <Link href="/">
+              <a className="navbar-brand ">
+                <Image src={Logo} alt="logo" width={70} height={70} />
+              </a>
+            </Link>
+            <button
+              className="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarHome"
+              aria-controls="navbarHome"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse " id="navbarHome">
+              <ul className="navbar-nav me-auto">
+                {menuItems.map((menu, index) => {
+                  return (
+                    <li className="nav-item" key={index}>
+                      <Link href={menu.url}>
+                        <a
+                          className={`${"nav-link"} ${
+                            router.pathname == menu.url && "active"
+                          }`}
+                          aria-current="page"
+                          href="#"
+                        >
+                          {/* TODO: when feature change language is work it must change to support to this feature */}
+                          {(language==="TH") ? menu.titleTH : (language==="EN") ? menu.title : menu.titleCN}
+                        </a>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
 
-            {/* contact and language change path */}
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <Link href={"/contactUs"}>
-                  <a
-                    className={`${"nav-link"} ${
-                      router.pathname == "/contactUs" && "active"
-                    }`}
-                    aria-current="page"
-                    href="#"
+              {/* contact and language change path */}
+              <ul className="navbar-nav ms-auto">
+                <li className="nav-item">
+                  <Link href={"/contactUs"}>
+                    <a
+                      className={`${"nav-link"} ${
+                        router.pathname == "/contactUs" && "active"
+                      }`}
+                      aria-current="page"
+                      href="#"
+                    >
+                      {(language === "TH")? "ติดต่อเรา" :  (language === "EN") ? "Contact" : "联系方式"}
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <button
+                    onClick={dropdownLanguage}
+                    className={`${styles.buttonChangeLang} ${"nav-link"}`}
                   >
-                    {(language === "TH")? "ติดต่อเรา" :  (language === "EN") ? "Contact" : "联系方式"}
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <button
-                  onClick={dropdownLanguage}
-                  className={`${styles.buttonChangeLang} ${"nav-link"}`}
-                >
-                  {(language === "TH") ? <Flag country="TH"/> : (language === "EN") ? <Flag country="US"/> : <Flag country="CN"/>}
-                  
-                </button>
-                <ul ref={dropdownRef} className={styles.dropdown}>
-                  {/* Thai Lang */}
-                  <li key="1" className={styles.langMenu}>
-                    <button
-                      className={`${styles.navbarButton} nav-link `}
-                      onClick={()=>{
-                        dropdownLanguage()
-                        setLanguage(() => "TH")
-                      }}
-                    >
-                      <Flag country="TH"/> &nbsp;
-                      ภาษาไทย
-                    </button>
-                  </li>
+                    {(language === "TH") ? <Flag country="TH"/> : (language === "EN") ? <Flag country="US"/> : <Flag country="CN"/>}
+                    
+                  </button>
+                  <ul ref={dropdownRef} className={styles.dropdown}>
+                    {/* Thai Lang */}
+                    <li key="1" className={styles.langMenu}>
+                      <button
+                        className={`${styles.navbarButton} nav-link `}
+                        onClick={()=>{
+                          dropdownLanguage()
+                          setLanguage(() => "TH")
+                        }}
+                      >
+                        <Flag country="TH"/> &nbsp;
+                        ภาษาไทย
+                      </button>
+                    </li>
 
-                  {/* English Lang */}
-                  <li key="1" className={styles.langMenu}>
-                    <button
-                      className={`${styles.navbarButton} nav-link`}
-                      onClick={()=>{
-                        dropdownLanguage()
-                        setLanguage(() => "EN")
-                      }}
-                    >
-                      <Flag country="US"/> &nbsp;
-                      English
-                    </button>
-                  </li>
+                    {/* English Lang */}
+                    <li key="1" className={styles.langMenu}>
+                      <button
+                        className={`${styles.navbarButton} nav-link`}
+                        onClick={()=>{
+                          dropdownLanguage()
+                          setLanguage(() => "EN")
+                        }}
+                      >
+                        <Flag country="US"/> &nbsp;
+                        English
+                      </button>
+                    </li>
 
-                  {/* CHINA LANGUAGE */}
-                  <li key="1" className={styles.langMenu}>
-                    <button
-                      className={`${styles.navbarButton} nav-link`}
-                      onClick={()=>{
-                        dropdownLanguage()
-                        setLanguage(() => "CN")
-                      }}
-                    >
-                      <Flag country="CN"/> &nbsp;
-                      中国
-                    </button>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+                    {/* CHINA LANGUAGE */}
+                    <li key="1" className={styles.langMenu}>
+                      <button
+                        className={`${styles.navbarButton} nav-link`}
+                        onClick={()=>{
+                          dropdownLanguage()
+                          setLanguage(() => "CN")
+                        }}
+                      >
+                        <Flag country="CN"/> &nbsp;
+                        中国
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </Nav>
+        </Nav>
       {page == "/" && (
         <div className={styles.bannerContent}>
           <h2>{translating("navbar.0",language)}</h2>

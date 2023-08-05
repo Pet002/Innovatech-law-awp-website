@@ -13,18 +13,15 @@ export default function OutServices() {
       </div>
       <div className={`${"container"} ${styles.main}  ${styles.centerContent}`}>
         <div className={`${"row "} `}>
-          <div className="col-md-4"></div>
-          <div className={`${"col-md-4 "}`}>
+          <div className={`${"col-md-4 "} ${styles.contact}`}>
             <h4 className="text-center">{translating("contact.section1.t1",language)}</h4>
             <p className="text-center">
             {translating("contact.section1.t2",language)}
             </p>
           </div>
-          <div className="col-md-4"></div>
         </div>
         <div className={`${"row "} `}>
-          <div className="col-md-4"></div>
-          <div className={`${"col-md-4 "}`}>
+          <div className={`${"col-md-4 "} ${styles.contact}`}>
             <h5>
               <i className="bi bi-envelope"></i> {translating("contact.section1.email",language)} : &nbsp;
               <a
@@ -47,7 +44,6 @@ export default function OutServices() {
               {translating("contact.address",language)}
             </h5>
           </div>
-          <div className="col-md-4"></div>
         </div>
       </div>
     </main>

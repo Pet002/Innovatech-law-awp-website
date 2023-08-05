@@ -16,13 +16,13 @@ const FooterBar = () => {
     <footer className={`${styles.Footertab}`}>
       <div className={`${"container"}`}>
         <div className="row">
-          <div className="col-md-4 mx-md-auto my-5">
-            <Image src={Logo} alt="logo" width={150} height={150} />
-            <p className={`${styles.text}`}>
+          <div className="col-md-4 mx-md-auto my-4 mx-auto w-auto">
+            <Image src={Logo} alt="logo" width={150} height={150} className={styles.Imglogo}/>
+            {/* <p className={`${styles.text}`}>
               {translating("contact.address",language)}
-            </p>
+            </p> */}
           </div>
-          <div className="col-md-4 my-md-5">
+          <div className="col-md-4 my-md-4">
             <div className="row">
               <h4 className={`${styles.text} `}>
                 {language==="TH"?"เมนู": language==="EN" ? "Menu" :"菜单"}
@@ -43,7 +43,7 @@ const FooterBar = () => {
               ))}
             </div>
           </div>
-          <div className="col-md-4 my-5">
+          <div className="col-md-4 my-4">
             <div className="row">
               <h5 className={`${styles.text} `}>
                 {language==="TH"?"ติดต่อเรา": language==="EN" ? "contact us" : "联系方式"}
@@ -55,7 +55,7 @@ const FooterBar = () => {
               >
                 Info@innovatechlawawp.com
               </a>
-              <span itemProp="telephone">
+              <span itemProp="telephone" className={styles.footLink}>
                 <a
                   className={`${styles.footLink} ${"my-1"} ${
                     styles.linkActive

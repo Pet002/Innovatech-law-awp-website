@@ -1,5 +1,6 @@
 .bgNavbar {
   background-color: #3972da;
+  height: 80px !important;
 }
 .Banner {
   width: 100%;
@@ -85,4 +86,8 @@
     /* .navbarButton{
       color: #d1d1d1;
     } */
+}
+
+.high {
+  height: 80px !important;
 }

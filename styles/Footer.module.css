@@ -4,11 +4,13 @@
 }
 .text{
     color: #fff;
+    text-align: center;
 }
 
 .footLink{
     color: rgba(255, 255, 255, 0.658);
     text-decoration: none;
+    text-align: center;
 }
 .footLink:hover{
     color: rgba(255, 255, 255, 0.78);
@@ -21,4 +23,19 @@
 .rightCopy{
     padding-bottom: 20px;
     color: #fff;
+}
+
+@media (min-width: 768px) {
+    .footLink{
+        text-align: start;
+    }
+
+    .text{
+        text-align: start;
+    }
+
+}
+
+.wih {
+    width: auto;
 }

@@ -6,6 +6,18 @@
 
 .firstContent{
   color: #3972DA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondContent{
+  color: #3972DA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .firstContent p{
